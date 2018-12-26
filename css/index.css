@@ -1,0 +1,226 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul,li{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color:black;
+}
+h3{
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+}
+
+.title{
+    padding-top:100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title__main{
+    font-size: 32px;
+}
+
+.title__text{
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.yellow{
+    color:#fcdb00;
+}
+
+.header{
+    background: yellow; 
+    color: black;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+
+.menu{
+    margin-top:10px;
+}
+
+.menu__item{
+    margin: 10px;
+}
+.menu__item a{
+    font-size:22px;
+    font-weight: 700;
+    color:black;
+}
+
+.offer{
+    margin-top:117px;
+}
+
+.offer__title{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro{
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text{
+    font-size:16px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.icons__item{
+    margin-right: 30px;
+}
+
+.icons__item a{
+    color:black;
+    font-size: 42px;
+    transition: 1s all ease;
+}
+
+.icons__item a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.ipad{
+    display:block;
+    margin:60px auto;
+}
+
+.feature__icon{
+    font-size: 50px;
+    margin-right: 37px;
+    color:black;
+}
+.feature__text{
+    color:burlywood;
+}
+
+/* Основна частина 2*/
+
+.touch{
+    background: black;
+    color:white;
+}
+
+.form{
+    text-align:center;
+}
+
+.form__input{
+    background: white;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width:580px;
+    padding: 14px 0;
+    margin-right: 21px;
+    border:0;
+    padding-left:23px;
+    outline: none;
+}
+
+.form__btn{
+    font-family: 'PT Sans', sans-serif;
+    background: yellow;
+    color:black
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight:700;
+    border-radius:5px;
+    width:126px;
+    border:0;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.footer{
+    background: black;
+    padding: 50px;
+}
+
+.credits{
+    color:white;
+    font-size:16px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-up {
+    position: fixed;
+    bottom: 26px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background: red;
+    z-index: 100;
+    outline: 0;
+}
+
+.btn-up:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media (max-width:700px){
+    .btn-up {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .offer{
+        text-align: center;
+    }
+    .offer__text{
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .form__input{
+        margin-right: 0;
+        width: 100%;
+    }
+    .form__btn{
+        margin-top:10px;
+        width: 100%
+    }
+    .title__text{
+        width: auto;
+    }
+
+}
